@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_locations?useSSL=false
+    username: location_user
+    password: location_password
+  liquibase:
+    change-log: classpath:db/liquibase-changeLog.xml
